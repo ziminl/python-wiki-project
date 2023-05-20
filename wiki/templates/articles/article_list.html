@@ -1,0 +1,9 @@
+<link rel="stylesheet" type="text/css" href="css.css">
+    1
+    <h1>title</h1>
+{% for article in articles %}
+    <h1>title</h1>
+    <h2><a href="{% url 'article_detail' pk=article.pk %}">{{ article.title }}</a></h2>
+{% empty %}
+    <p>No articles yet.</p>
+{% endfor %}

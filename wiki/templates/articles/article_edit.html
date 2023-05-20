@@ -1,0 +1,7 @@
+<link rel="stylesheet" type="text/css" href="css.css">
+<h2>New Article</h2>
+<form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Save</button>
+</form>

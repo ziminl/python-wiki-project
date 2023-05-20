@@ -1,0 +1,73 @@
+/* Common styles for all pages */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Styles specific to index.html */
+body.index {
+  /* Additional styles for index.html */
+}
+
+/* Styles specific to about.html */
+body.about {
+  /* Additional styles for about.html */
+}
+
+/* Styles specific to contact.html */
+body.contact {
+  /* Additional styles for contact.html */
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #555;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+/* Main content styles */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Additional styles for specific pages */
+/* Styles for index.html */
+body.index .container {
+  /* Additional styles for the container in index.html */
+}
+
+/* Styles for about.html */
+body.about .container {
+  /* Additional styles for the container in about.html */
+}
+
+/* Styles for contact.html */
+body.contact .container {
+  /* Additional styles for the container in contact.html */
+}
